@@ -4,10 +4,10 @@ This project fine-tunes a GPT-2 model to convert mathematical expressions into h
 
 ### 🔍 Example
 
-**Input Expression:** L[i, j] = L[i − 1, j − 1] + 1
+**Input Expression:** L[i, j, k] = 9 whenever i == 0 or j == 0 or k == 0
 
 
-**Generated Sentence:** If the first-dimensional variable is 1 less than the second-dimensional variable, the value is 1 more than the value at the position where the first-dimensional variable is 1 less and the second-dimensional variable is 1 less.
+**Generated Sentence:** If the first-dimensional variable is 0 or the second-dimensional variable is 0 or the third-dimensional variable is 0, the value is 9.
 
 
 
